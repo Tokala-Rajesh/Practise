@@ -20,7 +20,7 @@ import com.example.config.EmployeeConfig;
 @Configuration
 @PropertySource("classpath:database1.properties")
 @ComponentScan("com.test.rest")
-@Import({EmployeeConfig.class})
+@Import({EmployeeConfig.class,})
 public class AppConfig
 {
 	@Autowired
